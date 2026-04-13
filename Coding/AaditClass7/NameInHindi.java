@@ -7,6 +7,6 @@
  */
 public class NameInHindi {
     public static void main(String[] args) {
-        System.out.println("\f\u0936\u0947\u0943\u0937\u0920\u093b");
+        System.out.println("\f\u0906\u093f\u0926\u0924");
     }
 }
