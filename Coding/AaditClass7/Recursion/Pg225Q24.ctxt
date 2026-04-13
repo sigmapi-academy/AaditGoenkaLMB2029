@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=Pg225Q24
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Pg225Q24\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=str\ newstr
+comment1.target=void\ removeNextDuplicateChar(java.lang.String,\ java.lang.String)
+numComments=2

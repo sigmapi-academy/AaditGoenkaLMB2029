@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Series
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Series\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=nn
+comment1.target=Series(int)
+comment2.params=
+comment2.target=void\ calsum()
+comment3.params=
+comment3.target=void\ display()
+numComments=4

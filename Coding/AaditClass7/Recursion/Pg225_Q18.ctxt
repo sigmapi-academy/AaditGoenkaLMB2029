@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Pg225_Q18
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Pg225_Q18\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=str\ freq
+comment1.target=void\ findMaxFreqOfAChar(java.lang.String,\ int[])
+comment2.params=a\ i\ maxi
+comment2.target=int\ findMaximum(int[],\ int,\ int)
+comment3.params=args
+comment3.target=void\ main(java.lang.String[])
+numComments=4

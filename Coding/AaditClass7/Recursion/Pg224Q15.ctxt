@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=Pg224Q15
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Pg224Q15\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=str\ start
+comment1.target=java.lang.String\ printInitials(java.lang.String,\ int)
+comment2.params=args
+comment2.target=void\ main(java.lang.String[])
+numComments=3

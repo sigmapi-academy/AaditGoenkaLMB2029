@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=DigitFrequency
+comment0.text=\r\n\ Write\ a\ program\ to\ accept\ a\ number\ and\ display\ the\ frequency\ \r\n\ of\ each\ digit\ present\ in\ the\ number.\r\n\ Sample\ Input\:\ 341124\ \r\n\ Sample\ Output\:\r\n\ \ \ The\ frequency\ of\ 1\ \=\ 2\ \r\n\ \ \ The\ frequency\ of\ 2\ \=\ 1\ \r\n\ \ \ The\ frequency\ of\ 3\ \=\ 1\r\n\ \ \ The\ frequency\ of\ 4\ \=\ 2\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=N\ digit
+comment2.target=int\ digitFrequency(int,\ int)
+numComments=3

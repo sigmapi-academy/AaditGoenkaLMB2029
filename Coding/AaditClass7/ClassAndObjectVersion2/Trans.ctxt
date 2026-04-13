@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Trans
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Trans\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=mm
+comment1.target=Trans(int)
+comment1.text=\r\n\ Parameterized\ constructor\r\n\ @param\ mm\ Dimension\ of\ Square\ Matrix\r\n
+comment2.params=
+comment2.target=void\ fillarray()
+comment2.text=\r\n\ This\ method\ will\ take\ data\ input\ in\ the\ matrix\ of\ this\ object.\r\n
+comment3.params=
+comment3.target=void\ transpose()
+comment3.text=\r\n\ Call\ to\ this\ method\ will\ transpose\ the\ matrix\ in\ this\ object.\r\n
+comment4.params=
+comment4.target=void\ display()
+comment4.text=\r\n\ It\ displays\ the\ matrix\ of\ this\ object.\r\n
+numComments=5

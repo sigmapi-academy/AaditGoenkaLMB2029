@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=Digitfrequency
+comment0.text=\r\n\ WAP\ in\ Java\ to\ input\ a\ number\ and\ print\ the\ frequency\ of\ each\ digit\ in\ the\ number\:\r\n\r\nExample\:\ \r\nInput\:\ Enter\ a\ number\:\ 355126\r\nOutput\:\ \r\nDigit\ Frequency\r\n1\ \ \ \ \ \ \ 1\r\n2\ \ \ \ \ \ \ 1\r\n3\ \ \ \ \ \ \ 1\r\n5\ \ \ \ \ \ \ 2\r\n6\ \ \ \ \ \ \ 1\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+numComments=2
