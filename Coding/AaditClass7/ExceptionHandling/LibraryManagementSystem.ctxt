@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=LibraryManagementSystem
+comment0.text=\r\n\ 10.\ Write\ a\ Java\ program\ to\ simulate\ a\ library\ management\ system.\ \r\n\ The\ system\ should\ allow\ issuing\ and\ returning\ books.\ \r\n\ Handle\ exceptions\ when\:\r\n\ \u2022\ A\ book\ is\ not\ available\r\n\ \u2022\ The\ user\ enters\ an\ invalid\ book\ ID\r\n\ \u2022\ The\ member\ ID\ is\ incorrect\r\n\ \u2022\ The\ return\ date\ exceeds\ the\ due\ dateUse\ custom\ exceptions,\r\n\ \ \ \ \ \ try-catch-finally,\ and\ proper\ exception\ messages.\r\n\ \ \ \ \ \ \r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=bookID
+comment1.target=int\ getBookIndex(int)
+comment2.params=memberID
+comment2.target=int\ validateMemberIndex(int)
+comment3.params=
+comment3.target=void\ issueBook()
+comment4.params=
+comment4.target=void\ returnBook()
+comment5.params=
+comment5.target=void\ displayBooks()
+comment6.params=args
+comment6.target=void\ main(java.lang.String[])
+numComments=7
