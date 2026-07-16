@@ -1,9 +1,13 @@
 #BlueJ class context
-#Mon Jul 13 21:02:56 IST 2026
+#Thu Jul 16 20:50:56 IST 2026
 comment0.target=StudentOperation
 comment0.text=\r\n Write a description of class StudentOperation here.\r\n\r\n @author (your name)\r\n @version (a version number or a date)\r\n
 comment1.params=fileName obj
 comment1.target=void writeObject(java.lang.String, Student)
 comment2.params=fileName
 comment2.target=void readObject(java.lang.String)
-numComments=3
+comment3.params=fileName obj
+comment3.target=void writeMultipleObjects(java.lang.String, java.util.ArrayList)
+comment4.params=fileName
+comment4.target=void readMultipleObjects(java.lang.String)
+numComments=5
