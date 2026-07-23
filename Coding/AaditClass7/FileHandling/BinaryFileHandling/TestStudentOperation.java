@@ -25,6 +25,5 @@ public class TestStudentOperation
         double m = sc.nextDouble();
         so.writeObject(fileName, new Student(r, nm, m));
         so.readObject(fileName);
-        
     }
 }
