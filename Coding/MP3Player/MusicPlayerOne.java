@@ -47,4 +47,78 @@ public class MusicPlayerOne
                 playlist.get(i).getName());
         }
     }
+
+    public void play(){
+        if(playlist.size() == 0){
+            System.out.print("\nPlaylist Empty.");
+            return;
+        }
+
+        stop(); // Writing the function later. 
+        File song = playlist.get(currentSong);
+        playThread = new Thread(new Runnable(){
+                public void run(){
+                    playing = true;
+                    try(FileInputStream fis = new FileInputStream(song);
+                    BufferedInputStream bis = new BufferedInputStream(fis)){
+                        player = new AdvancedPlayer(bis);
+                        System.out.print("\nPlaying : " + song.getName());
+                        player.play();
+                    }
+                    catch(IOException ioe ){
+
+                    }
+                    catch(javazoom.jl.decoder.JavaLayerException jle){
+
+                    }
+                    finally{
+                        playing = false;
+                    }
+                }
+            });
+
+            playThread.start(); //activating run method
+    }
+    
+    public void stop(){
+        if(player!= null){
+            player.close();
+        }
+        playing = false;
+    }
+    
+    public void next(){
+        if(playlist.size() == 0){
+            return;
+        }
+        
+        stop();
+        currentSong++;
+        if(currentSong >= playlist.size()){
+            currentSong = 0;
+        }
+        
+        play();
+    }
+    
+    public void previous(){
+        
+        if(playlist.size() == 0){
+            return;
+        }
+        
+        stop();
+        currentSong--;
+        if(currentSong < 0){
+            currentSong = playlist.size() - 1;
+        }
+        
+        play();
+    }
+    
+    public int totalSongs(){
+        return playlist.size();
+    }
+    
 }
+
