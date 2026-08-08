@@ -1,0 +1,17 @@
+#BlueJ class context
+#Sat Aug 08 19:11:19 IST 2026
+comment0.target=MyStack
+comment0.text=\r\n Write a description of class MyStack here.\r\n\r\n @author (your name)\r\n @version (a version number or a date)\r\n
+comment1.params=size
+comment1.target=MyStack(int)
+comment2.target=MyStack()
+comment3.params=ele
+comment3.target=void push(int)
+comment4.target=boolean isFull()
+comment5.target=int numberOfElements()
+comment5.text=\r\n @return number of elements present in the current MyStack object\r\n
+comment6.target=int pop()
+comment7.target=int peek()
+comment8.target=boolean isEmpty()
+comment9.target=int capacityOfStack()
+numComments=10
