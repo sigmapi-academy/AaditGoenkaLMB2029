@@ -1,0 +1,15 @@
+#BlueJ class context
+#Thu Aug 13 20:35:21 IST 2026
+comment0.target=Node
+comment0.text=\r\n Write a description of class Node here.\r\n\r\n @author (your name)\r\n @version (a version number or a date)\r\n
+comment1.params=data
+comment1.target=Node(int)
+comment2.target=int getData()
+comment3.params=data
+comment3.target=void setData(int)
+comment4.params=n
+comment4.target=void setNext(Node)
+comment5.target=Node getNext()
+comment5.text=\r\n @return Returns the next node reference\r\n
+comment6.target=java.lang.String toString()
+numComments=7

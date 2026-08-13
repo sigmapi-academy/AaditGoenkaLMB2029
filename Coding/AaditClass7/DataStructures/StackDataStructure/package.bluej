@@ -40,5 +40,5 @@ target3.name=MyStackTest
 target3.showInterface=false
 target3.type=ClassTarget
 target3.width=120
-target3.x=160
-target3.y=110
+target3.x=460
+target3.y=260
