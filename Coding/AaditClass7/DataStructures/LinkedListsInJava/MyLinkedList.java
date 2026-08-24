@@ -1,6 +1,5 @@
 package DataStructures.LinkedListsInJava;
 
-
 /**
  * Write a description of class MyLinkedList here.
  *
@@ -10,20 +9,20 @@ package DataStructures.LinkedListsInJava;
 public class MyLinkedList
 {
     private Node head;
-    
+
     public MyLinkedList(){
         head = null;
     }
-    
+
     public void display(){
         System.out.print("\nLinked list: ");
         for(Node t = head; t != null; t = t.getNext()){
             System.out.print(t);
         }
         System.out.print("null\n");
-        
+
     }
-    
+
     public void addNodeAtHead(int data){
         Node n = new Node(data);
         if(head == null){
@@ -34,7 +33,7 @@ public class MyLinkedList
             head = n;
         }
     }
-    
+
     public void addNodeAtEnd(int data){
         Node n = new Node(data);
         if(head == null){
@@ -44,11 +43,11 @@ public class MyLinkedList
             Node t = head;
             //loop used to point the last node of the linked list
             for(;t.getNext()!= null; t = t.getNext());
-            
+
             t.setNext(n); //attaching the node at end;
         }
     }
-    
+
     public void addNodeAfterANode(int data, int after){
         if(head == null){
             System.out.print("\nList is empty");
@@ -61,13 +60,27 @@ public class MyLinkedList
                 t.setNext(n);
                 return ; //exit from the method
             }
-            
+
         }
         System.out.print("\n"+ after +" is not present in the list.");
-        
+
     }
-    
-    public void addNodeBeforeAnode(int data, int before){
-        
+
+    public void addNodeBeforeANode(int data, int before){
+        if(head==null){
+            System.out.print("\nList is empty");
+            return;
+        }
+        for(Node p = null, t = head;t!=null; t = t.getNext()){
+            if(t.getData() == before){
+                Node n = new Node(data);
+                n.setNext(t);
+                if(p == null){head = n; return;}
+                p.setNext(n);
+                return;
+            }
+            p = t;
+        }
+        System.out.print("\n" + before +" is not present in the list.");
     }
 }

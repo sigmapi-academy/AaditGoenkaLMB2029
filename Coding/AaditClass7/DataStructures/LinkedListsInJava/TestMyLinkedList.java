@@ -1,7 +1,6 @@
 package DataStructures.LinkedListsInJava;
 import java.util.*;
 
-
 /**
  * Write a description of class TestMyLinkedList here.
  *
@@ -23,6 +22,7 @@ public class TestMyLinkedList
             System.out.print("\n2. Add node at end");
             System.out.print("\n3. Display linked list");
             System.out.print("\n4. Add a node after a node in the list");
+            System.out.print("\n5. Add a node before a node in the list");
             System.out.print("\n0. Exit");
             System.out.print("\nEnter your choice(0 to 3): ");
             int ch = sc.nextInt();
@@ -42,6 +42,10 @@ public class TestMyLinkedList
                 case 4:
                     System.out.print("\nEnter the value of data, and value of existing node: ");
                     list.addNodeAfterANode(sc.nextInt(), sc.nextInt());
+                    break;
+                case 5:
+                    System.out.print("\nEnter the value of data, and value of existing node: ");
+                    list.addNodeBeforeANode(sc.nextInt(), sc.nextInt());
                     break;
                 case 0:
                     System.out.print("\nGood bye\n");
