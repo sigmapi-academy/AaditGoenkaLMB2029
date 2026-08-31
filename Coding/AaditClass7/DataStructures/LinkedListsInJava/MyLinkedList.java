@@ -83,4 +83,65 @@ public class MyLinkedList
         }
         System.out.print("\n" + before +" is not present in the list.");
     }
+
+    public void deleteNodeAtHead(){
+        if(head == null){
+            System.out.print("\nList is empty!");
+            return;
+        }
+        Node t = head; 
+        System.out.print("\nDeleted Node: " + t.getData());
+        head = head.getNext();
+        if(head != null){
+            t.setNext(null); //disconnecting the node from the list.
+        }
+    }
+
+    public void deleteNodeAtEnd(){
+        if(head == null){
+            System.out.print("\nList is empty!");
+            return;
+        }
+        //Case of only one node
+        if(head.getNext() == null){
+            System.out.print("\nDeleted Node: " + head.getData()+ "\n");
+            head = null;
+            return;
+        }
+        //Case of multiple nodes
+        Node t = head;
+        while(t.getNext().getNext() != null){
+            t = t.getNext();
+        }
+
+        System.out.print("\nDeleted Node: " + t.getNext().getData()+"\n");
+        t.setNext(null);
+    }
+
+    public void deleteANode(int data){
+        if(head == null){
+            System.out.print("\nList is empty!\n");
+            return;
+        }
+        Node p = null, t = head;
+        //Case of 1st node match.
+        if(t!= null && t.getData() == data){
+            head = head.getNext();
+            System.out.print("\nDeleted node successfully.\n");
+            return;
+
+        }
+        //Case is in the middle or end
+        for(; t != null && t.getData() != data; t = t.getNext()){
+            p = t;
+        }
+        if(t == null){
+            System.out.print("\nNode not found.\n");
+            return;
+        }
+
+        p.setNext(t.getNext());
+        t.setNext(null);
+        System.out.print("\nDeleted node successfully.\n");
+    }
 }

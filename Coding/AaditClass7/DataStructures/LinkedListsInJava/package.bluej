@@ -1,9 +1,9 @@
 #BlueJ package file
-dependency1.from=TestMyLinkedList
-dependency1.to=MyLinkedList
+dependency1.from=MyLinkedList
+dependency1.to=Node
 dependency1.type=UsesDependency
-dependency2.from=MyLinkedList
-dependency2.to=Node
+dependency2.from=TestMyLinkedList
+dependency2.to=MyLinkedList
 dependency2.type=UsesDependency
 objectbench.height=281
 objectbench.width=902

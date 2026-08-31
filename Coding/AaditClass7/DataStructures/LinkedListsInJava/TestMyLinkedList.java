@@ -23,6 +23,9 @@ public class TestMyLinkedList
             System.out.print("\n3. Display linked list");
             System.out.print("\n4. Add a node after a node in the list");
             System.out.print("\n5. Add a node before a node in the list");
+            System.out.print("\n6. Delete node from head");
+            System.out.print("\n7. Delete node from end");
+            System.out.print("\n8. Delete a give node from the list");
             System.out.print("\n0. Exit");
             System.out.print("\nEnter your choice(0 to 3): ");
             int ch = sc.nextInt();
@@ -46,6 +49,16 @@ public class TestMyLinkedList
                 case 5:
                     System.out.print("\nEnter the value of data, and value of existing node: ");
                     list.addNodeBeforeANode(sc.nextInt(), sc.nextInt());
+                    break;
+                case 6:
+                    list.deleteNodeAtHead();
+                    break;
+                case 7:
+                    list.deleteNodeAtEnd();
+                    break;
+                case 8:
+                    System.out.print("\nEnter value to delete from list: ");
+                    list.deleteANode(sc.nextInt());
                     break;
                 case 0:
                     System.out.print("\nGood bye\n");
