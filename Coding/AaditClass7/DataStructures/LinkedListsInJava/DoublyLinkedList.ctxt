@@ -1,0 +1,10 @@
+#BlueJ class context
+#Sat Sep 05 19:36:24 IST 2026
+comment0.target=DoublyLinkedList
+comment0.text=\r\n Write a description of class DoublyLinkedList here.\r\n\r\n @author (your name)\r\n @version (a version number or a date)\r\n
+comment1.target=DoublyLinkedList()
+comment2.params=data
+comment2.target=void insertNodeAtHead(int)
+comment3.target=void traverseFromHead()
+comment4.target=void traverseFromTail()
+numComments=5
