@@ -1,0 +1,13 @@
+#BlueJ class context
+#Sun Oct 11 17:26:20 IST 2026
+comment0.target=LinkedStack
+comment0.text=\r\n Write a description of class LinkedStack here.\r\n \tFor linked list implementation\:\r\n\t1. LinkedList object\r\n\t2. Push() \=> insertAtStart()\r\n\t3. Pop() \=> deleteAtStart()\r\n\t4. display()\r\n\t5. checkEmpty()\r\n\t\r\n Implement or write down a program using LinkedList class to implement \r\n linkedstack datastructure.\r\n @author (your name)\r\n @version (a version number or a date)\r\n
+comment1.target=LinkedStack()
+comment2.params=data
+comment2.target=void push(int)
+comment3.target=int pop()
+comment4.target=void display()
+comment5.target=boolean isEmpty()
+comment6.target=int peek()
+comment7.target=int numberOfElements()
+numComments=8
